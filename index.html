@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>My To-Do List</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">📋️My To-Do List</h1>
+   
+      <form id="task_add" style="display:flex; flex-direction:column;align-items: center ;  gap:10px ;">
+        <div><input
+          type="text"
+          placeholder="Add a new task..."
+          id="taskClass"
+          required
+        />
+        <button type="submit" id="addBtn" class="addBtnS">Add</button>
+        </div>
+      </form>
+    
+    <div style="display:flex ;flex-direction:column ;align-items:center; justify-content:center;">
+      <ul style="list-style: none; margin:0px; padding:0px; width:300px; height:70px;" id="listItems">
+        
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

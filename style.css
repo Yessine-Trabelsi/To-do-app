@@ -1,0 +1,31 @@
+.listItem{
+    border:1px solid gainsboro;
+    border-radius:7px ; 
+    padding:10px;
+    display:flex ;
+    justify-content: space-between ; 
+    align-items: center;
+}
+.deleteBtn{
+    color: white;
+    background-color: #ED2939 ;
+    border: 0px solid red;
+    border-radius: 6px;
+    width: 70px;
+    height: 38px ;
+
+}
+.deleteBtn:hover{
+    background-color: FireBrick
+}
+.addBtnS{
+    height: 38px ;
+    width: 55.17px;
+    background-color: dodgerblue ;
+    color: white ;
+    border: 0px solid blue;
+    border-radius: 6px ;
+}
+.addBtn:hover{
+    background-color: #2a52be;
+}
