@@ -5,6 +5,7 @@
     display:flex ;
     justify-content: space-between ; 
     align-items: center;
+    background-color: white ;
 }
 .deleteBtn{
     color: white;
@@ -28,4 +29,8 @@
 }
 .addBtn:hover{
     background-color: #2a52be;
+
+}
+body{
+background-color: beige !important;
 }
